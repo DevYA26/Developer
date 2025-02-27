@@ -3,11 +3,28 @@
     box-sizing: border-box;
 }
 
-h1{
+.container{
     width: 80%;
     margin: 0 auto;
     text-align: center;
-    padding: 40px;
-    font-size: 40px;
+    padding: 20px;
     font-weight: bold;
+}
+h1{
+    font-size: 30px;
+}
+p{
+    margin-top: 20px;
+}
+
+.button{
+    margin-top: 20px;
+    padding: 10px 20px;
+    background-color: steelblue;
+    border: none;
+    border-radius: 2px;
+    color: #fff;
+    font-size: 20px;
+    font-weight: bold;
+    cursor: pointer;
 }
